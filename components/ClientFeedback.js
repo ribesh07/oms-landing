@@ -57,7 +57,7 @@ export default function ClientFeedback() {
         {/* Heading */}
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            What Our <span className="text-indigo-600">Clients Say</span>
+            What Our <span className="text-green-600">Clients Say</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Don't just take our word for it. Here's what our satisfied clients have to say about Global Tech.
@@ -101,7 +101,7 @@ export default function ClientFeedback() {
                           className="w-16 h-16 rounded-full object-cover"
                         />
                         <div>
-                          <h3 className="text-xl font-bold text-indigo-600">
+                          <h3 className="text-xl font-bold text-green-600">
                             {testimonial.name}
                           </h3>
                           <p className="text-gray-600">
@@ -113,7 +113,7 @@ export default function ClientFeedback() {
                       {/* Quote Icon */}
                       <div className="flex-shrink-0">
                         <svg
-                          className="w-12 h-12 text-indigo-200"
+                          className="w-12 h-12 text-green-200"
                           fill="currentColor"
                           viewBox="0 0 24 24"
                         >
@@ -140,7 +140,7 @@ export default function ClientFeedback() {
                 onClick={() => goToSlide(index)}
                 className={`w-3 h-3 rounded-full transition-all ${
                   currentIndex === index
-                    ? 'bg-indigo-600 w-8'
+                    ? 'bg-green-600 w-8'
                     : 'bg-gray-300 hover:bg-gray-400'
                 }`}
                 aria-label={`Go to testimonial ${index + 1}`}

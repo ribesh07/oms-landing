@@ -9,28 +9,28 @@ export default function YouTubeVideo() {
   const videoId = "dQw4w9WgXcQ";
 
   return (
-    <section className="bg-linear-to-br from-indigo-50 via-white to-blue-50 py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-green-50 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Trust Badges */}
         <div className="flex flex-wrap justify-center gap-6 mb-12">
-          <div className="flex items-center gap-2 text-indigo-600">
+          <div className="flex items-center gap-2 text-green-600">
             <CheckCircle className="w-5 h-5" />
             <span className="font-medium">
               Designed by Professional Accountants
             </span>
           </div>
-          <div className="flex items-center gap-2 text-indigo-600">
+          <div className="flex items-center gap-2 text-green-600">
             <CheckCircle className="w-5 h-5" />
             <span className="font-medium">Built by Tech Experts</span>
           </div>
-          <div className="flex items-center gap-2 text-indigo-600">
+          <div className="flex items-center gap-2 text-green-600">
             <CheckCircle className="w-5 h-5" />
             <span className="font-medium">Certified by the IRD</span>
           </div>
         </div>
 
         {/* Video Container with Browser Frame */}
-        <div className="relative max-w-6xl mx-auto">
+        <div className="relative border-green-600 border-4 rounded-2xl max-w-6xl mx-auto">
           {/* Browser Chrome */}
           <div className="bg-gray-800 rounded-t-xl p-3 flex items-center gap-2">
             <div className="flex gap-2">
@@ -42,7 +42,7 @@ export default function YouTubeVideo() {
 
           {/* Video Frame */}
           <div
-            className="relative bg-gray-900 rounded-b-xl overflow-hidden shadow-2xl"
+            className="relative  bg-gray-900 rounded-b-xl overflow-hidden shadow-2xl"
             style={{ paddingBottom: "56.25%" }}
           >
             {!isPlaying ? (
@@ -55,7 +55,7 @@ export default function YouTubeVideo() {
                 />
                 <button
                   onClick={() => setIsPlaying(true)}
-                  className="relative z-10 w-20 h-20 bg-indigo-600 rounded-full flex items-center justify-center hover:bg-indigo-700 transition-all transform hover:scale-110 shadow-lg"
+                  className="relative z-10 w-20 h-20 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition-all transform hover:scale-110 shadow-lg"
                   aria-label="Play video"
                 >
                   <Play className="w-10 h-10 text-white ml-1" fill="white" />

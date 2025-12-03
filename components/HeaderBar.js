@@ -58,7 +58,7 @@ export default function HeaderBar() {
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
-                onClick={() => setIsOpen(false)}
+                onClick={() => setIsOpen(true)}
                 className="p-2 rounded-md bg-[#01403e] hover:bg-[#016f6a] transition"
               >
               {/* Hamburger Icon */}
@@ -73,7 +73,7 @@ export default function HeaderBar() {
       {/* Mobile Sidebar Overlay */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-40 z-40"
+          className="fixed inset-0 bg-[#01403e] bg-opacity-40 z-40"
           onClick={() => setIsOpen(false)}
         ></div>
       )}

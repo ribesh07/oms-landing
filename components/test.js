@@ -224,11 +224,11 @@ export default function FreeTrials() {
   };
 
   return (
-    <section className="bg-linear-to-b from-white to-indigo-50 py-20 px-4 sm:px-6 lg:px-8">
+    <section className="bg-linear-to-b from-white to-green-50 py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto text-center">
         {/* Heading */}
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-          Is Your <span className="text-indigo-600">Accounting</span> Still
+          Is Your <span className="text-green-600">Accounting</span> Still
           <br />
           Stuck in the Past?
         </h1>
@@ -247,13 +247,13 @@ export default function FreeTrials() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
-              className="flex-1 w-full sm:w-auto px-6 py-4 text-gray-700 placeholder-gray-400 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
+              className="flex-1 w-full sm:w-auto px-6 py-4 text-gray-700 placeholder-gray-400 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
             />
 
             {/* Start Free Trial Button */}
             <button
               onClick={handleStartTrial}
-              className="w-full sm:w-auto px-8 py-4 bg-indigo-600 text-white font-semibold rounded-xl hover:bg-indigo-700 transition-colors shadow-md hover:shadow-lg"
+              className="w-full sm:w-auto px-8 py-4 bg-green-600 text-white font-semibold rounded-xl hover:bg-green-700 transition-colors shadow-md hover:shadow-lg"
             >
               Start Free Trial
             </button>
@@ -261,14 +261,14 @@ export default function FreeTrials() {
             {/* Explore Demo Button */}
             <button
               onClick={() => console.log('Demo clicked')}
-              className="w-full sm:w-auto px-8 py-4 border-2 border-indigo-600 text-indigo-600 font-semibold rounded-xl hover:bg-indigo-50 transition-colors"
+              className="w-full sm:w-auto px-8 py-4 border-2 border-green-600 text-green-600 font-semibold rounded-xl hover:bg-green-50 transition-colors"
             >
               Explore Demo Account
             </button>
           </div>
 
           {/* Disclaimer Text */}
-          <p className="text-sm text-indigo-600 italic mt-4">
+          <p className="text-sm text-green-600 italic mt-4">
             No Payment or Commitment Required
           </p>
         </div>

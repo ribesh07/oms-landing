@@ -26,13 +26,14 @@ export default function OurclientSlider() {
   }, []);
 
   return (
-    <div className="bg-linear-to-b from-indigo-50 to-white py-16 px-4 sm:px-6 lg:px-8">
-    <div className="max-w-7xl mx-auto py-10 bg-linear-to-b from-indigo-50 to-white">
+    <div className=" bg-green-50 py-16 px-4 sm:px-6 lg:px-8">
+    <div className="max-w-7xl mx-auto py-10 ">
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-gray-900 mb-12">
         We Have Been Featured On
       </h2>
 
       <Swiper
+      className="bg-linear-to-b from-green-50 to-white"
         modules={[Autoplay]}
         autoplay={{ delay: 2500, disableOnInteraction: false }}
         loop={true}
@@ -47,7 +48,7 @@ export default function OurclientSlider() {
       >
         {brands.map((brand) => (
           <SwiperSlide key={brand.id}>
-            <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition bg-white border">
+            <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition bg-linear-to-b from-green-50 to-white border">
               <div className="w-full h-40 flex items-center justify-center p-4">
                 <Image
                   src={brand.image}

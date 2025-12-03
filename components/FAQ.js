@@ -36,7 +36,7 @@ export default function FAQ() {
       <div className="max-w-4xl mx-auto">
         
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-12">
-          <span className="text-indigo-600">Frequently Asked Questions</span>{' '}
+          <span className="text-green-600">Frequently Asked Questions</span>{' '}
           <span className="text-gray-900">About Global Tech</span>
         </h2>
 
@@ -52,7 +52,7 @@ export default function FAQ() {
               <div key={faq.id} className="border-b border-gray-200 pb-4">
                 <button
                   onClick={() => toggleFAQ(index)}
-                  className="w-full flex items-center justify-between text-left py-4 hover:text-indigo-600 transition-colors"
+                  className="w-full flex items-center justify-between text-left py-4 hover:text-green-600 transition-colors"
                 >
                   <h3 className="text-lg font-semibold text-gray-900 pr-8">
                     {faq.title}
@@ -60,11 +60,11 @@ export default function FAQ() {
 
                   <div className="flex-shrink-0">
                     {openIndex === index ? (
-                      <div className="w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center">
+                      <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
                         <Minus className="w-5 h-5 text-white" />
                       </div>
                     ) : (
-                      <div className="w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center">
+                      <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
                         <Plus className="w-5 h-5 text-white" />
                       </div>
                     )}
@@ -86,7 +86,7 @@ export default function FAQ() {
           <div className="flex justify-center mt-12">
             <button
               onClick={() => setShowAll(true)}
-              className="px-12 py-4 border-2 border-indigo-600 text-indigo-600 font-semibold rounded-xl hover:bg-indigo-50 transition-colors"
+              className="px-12 py-4 border-2 border-green-600 text-green-600 font-semibold rounded-xl hover:bg-green-50 transition-colors"
             >
               Show More &gt;&gt;
             </button>

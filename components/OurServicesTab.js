@@ -80,12 +80,12 @@ export default function TabBar() {
   const content = tabContent[activeTab];
 
   return (
-    <section className="bg-linear-to-b from-indigo-50 to-white py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-linear-to-b from-green-50 to-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-gray-900 mb-12">
           Global Tech Handles All Unique Needs for Your{' '}
-          <span className="text-indigo-600">diverse Businesses!</span>
+          <span className="text-green-600">diverse Businesses!</span>
         </h2>
 
         {/* Tab Bar */}
@@ -97,7 +97,7 @@ export default function TabBar() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`px-6 py-3 rounded-full font-semibold transition-all ${
                   activeTab === tab.id
-                    ? 'bg-indigo-600 text-white shadow-md'
+                    ? 'bg-green-600 text-white shadow-md'
                     : 'text-gray-700 hover:bg-gray-100'
                 }`}
               >
@@ -112,7 +112,7 @@ export default function TabBar() {
           {/* Left Side - Preview Image */}
           <div className="order-2 lg:order-1">
             <div className="bg-white rounded-2xl shadow-xl p-6">
-              <div className="aspect-video bg-linear-to-br from-indigo-100 to-blue-50 rounded-xl flex items-center justify-center">
+              <div className="aspect-video bg-linear-to-br from-green-100 to-blue-50 rounded-xl flex items-center justify-center">
                 <div className="text-center p-8">
                   <div className="text-6xl mb-4">📊</div>
                   <p className="text-gray-600 font-medium">{content.title} Preview</p>
@@ -134,7 +134,7 @@ export default function TabBar() {
             <div className="space-y-4 mb-8">
               {content.features.map((feature, index) => (
                 <div key={index} className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-700 font-medium">{feature}</span>
                 </div>
               ))}
@@ -142,7 +142,7 @@ export default function TabBar() {
 
             {/* Action Buttons */}
             <div className="flex flex-wrap gap-4">
-              <button className="px-8 py-4 bg-indigo-900 text-white font-semibold rounded-xl hover:bg-indigo-800 transition-colors">
+              <button className="px-8 py-4 bg-green-900 text-white font-semibold rounded-xl hover:bg-green-800 transition-colors">
                 Explore More
               </button>
               <button className="px-8 py-4 border-2 border-gray-900 text-gray-900 font-semibold rounded-xl hover:bg-gray-50 transition-colors">
