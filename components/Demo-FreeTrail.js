@@ -84,9 +84,9 @@ export default function FreeTrials() {
     <div className="grid lg:grid-cols-2 gap-6 lg:gap-12 items-center">
 
       {/* Left Section */}
-      <div className="space-y-5">
+      <div className="my-2">
         {/* Heading */}
-        <div className={`${isVisible ? "animate-slide-up opacity-0" : "opacity-0"}`}>
+        <div className={`${isVisible ? "mb-12 animate-slide-up opacity-0" : "opacity-0"}`}>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
             Transform Your{" "}
             <span className="text-lime-400 inline-block hover:scale-105 transition-transform duration-300">
@@ -99,7 +99,7 @@ export default function FreeTrials() {
 
         {/* Subheading */}
         <p
-          className={`text-base sm:text-lg  lg:text-xl text-gray-100 leading-relaxed font-bold max-w-xl ${
+          className={`text-base sm:text-lg mb-12 lg:text-xl text-gray-100 leading-relaxed font-bold max-w-xl ${
             isVisible ? "animate-slide-up opacity-0 delay-200" : "opacity-0"
           }`}
         >
@@ -167,7 +167,7 @@ export default function FreeTrials() {
         </div>
 
         {/* App download buttons */}
-        <div className={`pt-4 ${isVisible ? "animate-slide-up opacity-0 delay-500" : "opacity-0"}`}>
+        <div className={`pt-4 -my-2 mx-12 ${isVisible ? "animate-slide-up opacity-0 delay-500" : "opacity-0"}`}>
           <p className="text-white text-xs font-medium mb-3">
             Available on mobile
           </p>

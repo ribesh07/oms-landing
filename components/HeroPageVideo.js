@@ -9,23 +9,23 @@ export default function YouTubeVideo() {
   const videoId = "dQw4w9WgXcQ";
 
   return (
-    <section className="bg-green-50 py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-green-50 py-8 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mt-4 mx-auto">
         {/* Trust Badges */}
         <div className="flex flex-wrap justify-center gap-6 mb-12">
-          <div className="flex items-center gap-2 text-green-600">
-            <CheckCircle className="w-5 h-5" />
-            <span className="font-medium">
+          <div className="flex items-center gap-2  text-green-600">
+            <CheckCircle className="w-6 h-6" />
+            <span className="font-medium text-xl">
               Designed by Professional Accountants
             </span>
           </div>
           <div className="flex items-center gap-2 text-green-600">
-            <CheckCircle className="w-5 h-5" />
-            <span className="font-medium">Built by Tech Experts</span>
+            <CheckCircle className="w-6 h-6" />
+            <span className="font-medium text-xl">Built by Tech Experts</span>
           </div>
           <div className="flex items-center gap-2 text-green-600">
-            <CheckCircle className="w-5 h-5" />
-            <span className="font-medium">Certified by the IRD</span>
+            <CheckCircle className="w-6 h-6" />
+            <span className="font-medium text-xl">Certified by the IRD</span>
           </div>
         </div>
 

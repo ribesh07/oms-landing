@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Linkedin, Instagram, Youtube, Mail, Phone, MapPin } from 'lucide-react';
+import Image from "next/image";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -41,12 +42,24 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
+            {/* <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center transform rotate-45">
                 <div className="w-4 h-4 bg-white rounded-sm transform -rotate-45"></div>
               </div>
               <span className="text-2xl font-bold text-white">Global Tech</span>
-            </div>
+            </div> */}
+             {/* Logo */}
+            <div className="flex items-center mr-2 my-2">
+              <Image
+                  src="/logo.png"
+                  alt="Global Tech"
+                  width={200}
+                  height={200}
+                  quality={100}
+                  priority
+                  className="transition-all duration-300 hover:scale-105"
+                />
+              </div>
             <p className="text-gray-400 mb-6 max-w-sm">
               The most efficient way to manage your accounting in the cloud. Designed by professional accountants, built by tech experts.
             </p>
