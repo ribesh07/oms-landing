@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     "order management system",
     "digital transformation",
   ],
+   icons: {
+    icon: "/globaltech-logo.png",
+  },
   authors: [{ name: "GlobalTech Solutions" }],
   creator: "GlobalTech Solutions",
   publisher: "GlobalTech Solutions",
