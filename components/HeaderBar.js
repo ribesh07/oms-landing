@@ -11,13 +11,15 @@ export default function HeaderBar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center mr-2">
-            <Image
-              src="/globaltech-logo.png"
-              alt="Global Tech"
-              width={45}
-              height={45}
-              className="w-35 h-35 object-contain contrast-150 transition-all duration-300 hover:scale-105 hover:contrast-200"
-            />
+           <Image
+                src="/globaltech-logo.png"
+                alt="Global Tech"
+                width={80}
+                height={80}
+                quality={100}
+                priority
+                className="transition-all duration-300 hover:scale-105"
+              />
           </div>
 
           {/* Desktop Navigation */}
