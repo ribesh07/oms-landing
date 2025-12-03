@@ -168,7 +168,7 @@ export default function FreeTrials() {
 
         {/* App download buttons */}
         <div className={`pt-4 -my-2 mx-12  ${isVisible ? "animate-slide-up opacity-0 delay-500" : "opacity-0"}`}>
-          <p className="text-white text-xs font-medium mb-3 mt-8dsd">
+          <p className="text-white text-xs font-medium mb-3 mt-14">
             Available on mobile
           </p>
 
