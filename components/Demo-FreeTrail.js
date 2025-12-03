@@ -99,11 +99,12 @@ export default function FreeTrials() {
 
         {/* Subheading */}
         <p
-          className={`text-base sm:text-lg lg:text-xl text-gray-100 leading-relaxed max-w-xl ${
+          className={`text-base sm:text-lg  lg:text-xl text-gray-100 leading-relaxed font-bold max-w-xl ${
             isVisible ? "animate-slide-up opacity-0 delay-200" : "opacity-0"
           }`}
         >
-          Join thousands of businesses managing their finances smarter, faster,
+          Join thousands of businesses managing their finances
+          <span className="font-bold text-green-600"> Smarter, Faster</span>{" "}
           and more securely with our cloud-based accounting platform.
         </p>
       </div>
