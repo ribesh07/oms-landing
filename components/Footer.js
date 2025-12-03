@@ -49,7 +49,7 @@ export default function Footer() {
               <span className="text-2xl font-bold text-white">Global Tech</span>
             </div> */}
              {/* Logo */}
-            <div className="flex items-center mr-2 my-2">
+            <div className="flex items-center mr-2 -mt-6 my-2">
               <Image
                   src="/logo.png"
                   alt="Global Tech"
