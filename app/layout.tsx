@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "digital transformation",
   ],
    icons: {
-    icon: "/globaltech-logo.png",
+    icon: "/logo-global.png",
   },
   authors: [{ name: "GlobalTech Solutions" }],
   creator: "GlobalTech Solutions",
