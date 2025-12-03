@@ -8,7 +8,7 @@ export default function HeaderBar() {
   return (
     <header className="bg-white border-b border-gray-200 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 mb-2">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center mr-2">
            <Image
@@ -61,12 +61,25 @@ export default function HeaderBar() {
           <div className="md:hidden">
             <button
                 onClick={() => setIsOpen(true)}
-                className="p-2 rounded-md bg-[#01403e] hover:bg-[#016f6a] transition"
+                className="p-2 rounded-md bg-green-600 hover:bg-[#016f6a] transition"
               >
               {/* Hamburger Icon */}
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              {/* <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
+              </svg> */}
+              <svg
+                  className="h-6 w-6 text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
             </button>
           </div>
         </div>
