@@ -55,19 +55,20 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-indigo-500" />
-                <a href="mailto:hello@Global Tech.com" className="hover:text-white transition-colors">
-                  hello@Global Tech.com
+                <a href="mailto:info@globaltech.com.np" className="hover:text-white transition-colors">
+                  info@globaltech.com.np
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-indigo-500" />
                 <a href="tel:+1234567890" className="hover:text-white transition-colors">
-                  +1 (234) 567-890
+                  01-5329949 | 5329952 | 5329982
                 </a>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-indigo-500 flex-shrink-0 mt-1" />
-                <span>123 Business Street, Suite 100<br />San Francisco, CA 94107</span>
+                <span>Globaltech Solution Pvt. Ltd.
+                  Teku, Kathmandu, Nepal</span>
               </div>
             </div>
           </div>
