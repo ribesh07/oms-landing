@@ -20,7 +20,7 @@ export default function FreeTrials() {
 
    
 
-  <section className="relative py-10 sm:py-12 lg:py-14 px-4 sm:px-6 lg:px-8 overflow-hidden flex items-center">
+<section className="relative min-h-[70vh] py-12 px-4 sm:px-6 lg:px-8 overflow-hidden flex items-center">
 
   {/* Background */}
   <div
