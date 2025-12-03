@@ -7,15 +7,15 @@ export default function HeaderBar() {
 
   return (
     <header className="bg-white border-b border-gray-200 relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 mb-2">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center mr-2">
            <Image
                 src="/globaltech-logo.png"
                 alt="Global Tech"
-                width={80}
-                height={80}
+                width={120}
+                height={120}
                 quality={100}
                 priority
                 className="transition-all duration-300 hover:scale-105"
