@@ -6,10 +6,12 @@ import OurclientSlider from '../../components/Ourclient-slider';
 import TabBar from '../../components/OurServicesTab';
 import ClientFeedback from '../../components/ClientFeedback';
 import FAQ from '../../components/FAQ';
+import TawkToWidget from '../../components/TawkToWidget'
 
 function Omslite() {
   return (
     <div> 
+             {/* <TawkToWidget /> */}
         <FreeTrials/>  
       <YouTubeVideo/> 
       <OurclientSlider/>
