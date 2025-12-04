@@ -113,14 +113,13 @@ export default function TabBar() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Side - Preview Image */}
           <div className="order-2 lg:order-1">
-            <div className="bg-white rounded-2xl shadow-xl p-6">
-              <div className="aspect-video rounded-xl overflow-hidden">
+            <div className="border-4 border-green-200 rounded-2xl overflow-hidden shadow-lg h-80 sm:h-96">
                 <img
                   src={content.image}
                   alt={content.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover border border-green-400"
                 />
-              </div>
+             
             </div>
           </div>
 
