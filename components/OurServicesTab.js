@@ -1,80 +1,82 @@
 "use client";
-import { useState } from 'react';
-import { CheckCircle } from 'lucide-react';
+import { useState } from "react";
+import { CheckCircle } from "lucide-react";
 
 export default function TabBar() {
-  const [activeTab, setActiveTab] = useState('accounting');
+  const [activeTab, setActiveTab] = useState("accounting");
 
   const tabs = [
-    { id: 'accounting', label: 'Accounting' },
-    { id: 'softwaredevelopment', label: 'Software Development' },
-    { id: 'cloudcomputing', label: 'Cloud Computing' },
-    { id: 'websolutions', label: 'Web & App Solutions' },
-    { id: 'graphicdesign', label: 'Graphic Design & Animation' }
+    { id: "accounting", label: "Accounting" },
+    { id: "softwaredevelopment", label: "Software Development" },
+    { id: "cloudcomputing", label: "Cloud Computing" },
+    { id: "websolutions", label: "Web & App Solutions" },
+    { id: "graphicdesign", label: "Graphic Design & Animation" },
   ];
 
   const tabContent = {
     accounting: {
-      title: 'Accounting',
-      description: 'Record all your accounting transactions seamlessly within Global Tech.',
+      title: "Accounting",
+      description:
+        "We as an Accounting consultants assist you in making different accounting reports , analyze financial information for business decision making. We help you with a number of tasks related to accounting services:",
       features: [
-        'Double Entry Accounting System',
-        'Journal Voucher',
-        'Charts of Accounts',
-        'Sales and Purchase Cycle Management',
-        'Payment Receipts'
+        "financial forecasting",
+        "analyzing financial statements",
+        "determining the profitability of your business",
+        "analyzing accounts payable to see where your business might be able to save money",
+        "determining what accounting services you need",
+        "setting up consistent accounting practices",
       ],
-      image: '/websolutions.jpg'
+      image: "/accounting.webp",
     },
     softwaredevelopment: {
-      title: 'Software Development',
-      description: 'Manage your inventory with real-time tracking and automated stock updates.',
-      features: [
-        'Real-time Stock Tracking',
-        'Multi-location Warehouse Management',
-        'Automatic Reorder Alerts',
-        'Barcode Integration',
-        'Stock Valuation Reports'
-      ],
-      image: '/inventory-preview.png'
+      title: "Software Development",
+      description:
+        "Global-Tech strives to provide customized software solutions that will keep you a step ahead in competition by continuously improving your IT based business solutions. We take a flexible and long-term approach to technology and design decisions.",
+      features: [],
+      image: "/software.jpg",
     },
     cloudcomputing: {
-      title: 'Cloud Computing',
-      description: 'Create professional invoices and get paid faster with automated reminders.',
+      title: "Cloud Computing",
+      description: "Web hosting and domain registration",
       features: [
-        'Customizable Invoice Templates',
-        'Recurring Invoices',
-        'Payment Gateway Integration',
-        'Automated Payment Reminders',
-        'Multi-currency Support'
+        "Domain Registration",
+        "Reliable Web Hosting",
+        "SSL Certificates",
+        "Email Hosting",
+        "Linux VPS Hosting",
+        "Windows VPS Hosting",
+        "Dedicated Server Hosting",
       ],
-      image: '/invoicing-preview.png'
+      image: "/cloud.avif",
     },
     websolutions: {
-      title: 'Web & App Solutions',
-      description: 'Streamline your retail operations with our integrated POS system.',
+      title: "Web & App Solutions",
+      description:
+        "Web & App Solutions that streamline your sales process and enhance customer experience.",
       features: [
-        'Quick Sales Processing',
-        'Receipt Printing',
-        'Customer Management',
-        'Multiple Payment Methods',
-        'Sales Analytics Dashboard'
+        "Portal Development",
+        "E-commerce Integration",
+        "Responsive Design",
+        "Mobile App android & ios Development",
+        "CMS Solutions",
       ],
-      image: '/websolutions.jpg'
+      image: "/web-app.jpeg",
     },
     graphicdesign: {
-      title: 'Graphic Design & Animation',
-      description: 'Store and manage all your business documents in one secure place.',
+      title: "Graphic Design & Animation",
+      description:
+        "Graphic Design & Animation services to bring your ideas to life with stunning visuals and engaging animations.",
       features: [
-        'Cloud Storage Integration',
-        'Document Version Control',
-        'Secure File Sharing',
-        'OCR Document Scanning',
-        'Automated Backup'
+        "Motion Graphics",
+        "3D Animation",
+        "Logo & Brand Design",
+        "Marketing Collaterals",
+        "Packaging Design",
+        "Social Media Graphics",
+        "UI/UX Design",
       ],
-      image: '/documents-preview.png'
-    }
-   
+      image: "/graphic.jpg",
+    },
   };
 
   const content = tabContent[activeTab];
@@ -84,7 +86,7 @@ export default function TabBar() {
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-gray-900 mb-12">
-          Global Tech Handles All Unique Needs for Your{' '}
+          Global Tech Handles All Unique Needs for Your{" "}
           <span className="text-green-600">diverse Businesses!</span>
         </h2>
 
@@ -97,8 +99,8 @@ export default function TabBar() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`px-6 py-3 rounded-full font-semibold transition-all ${
                   activeTab === tab.id
-                    ? 'bg-green-600 text-white shadow-md'
-                    : 'text-gray-700 hover:bg-gray-100'
+                    ? "bg-green-600 text-white shadow-md"
+                    : "text-gray-700 hover:bg-gray-100"
                 }`}
               >
                 {tab.label}
@@ -112,11 +114,12 @@ export default function TabBar() {
           {/* Left Side - Preview Image */}
           <div className="order-2 lg:order-1">
             <div className="bg-white rounded-2xl shadow-xl p-6">
-              <div className="aspect-video bg-linear-to-br from-green-100 to-blue-50 rounded-xl flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="text-6xl mb-4">📊</div>
-                  <p className="text-gray-600 font-medium">{content.title} Preview</p>
-                </div>
+              <div className="aspect-video rounded-xl overflow-hidden">
+                <img
+                  src={content.image}
+                  alt={content.title}
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -126,15 +129,13 @@ export default function TabBar() {
             <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               {content.title}
             </h3>
-            <p className="text-lg text-gray-600 mb-8">
-              {content.description}
-            </p>
+            <p className="text-lg text-gray-600 mb-8">{content.description}</p>
 
             {/* Features List */}
             <div className="space-y-4 mb-8">
               {content.features.map((feature, index) => (
                 <div key={index} className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="w-6 h-6 text-green-600 shrink-0 mt-0.5" />
                   <span className="text-gray-700 font-medium">{feature}</span>
                 </div>
               ))}
