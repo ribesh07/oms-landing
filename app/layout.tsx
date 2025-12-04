@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import HeaderBar from "../components/HeaderBar";
 import Footer from "../components/Footer";
+import TawkToWidget from "@/components/TawkToWidget";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -72,20 +73,54 @@ export const metadata: Metadata = {
 };
 
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+// export default function RootLayout({
+//   children,
+// }: Readonly<{
+//   children: React.ReactNode;
+// }>) {
+//   return (
+//     <html lang="en">
+//       <body
+//         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+//       >
+//         <HeaderBar />
+//         {children}
+//         <Footer />
+//         {/* <TawkToWidget /> */}
+
+//       </body>
+//     </html>
+//   );
+// }
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <HeaderBar />
+
         {children}
+
         <Footer />
 
+        {/* Tawk.to Chat Widget */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+              (function(){
+                var s1=document.createElement("script");
+                s1.async=true;
+                s1.src='https://embed.tawk.to/686bb0dca86aec190ca6b4f4/1ivialoc3';
+                s1.charset='UTF-8';
+                s1.setAttribute('crossorigin','*');
+                document.body.appendChild(s1);
+              })();
+            `,
+          }}
+        />
       </body>
     </html>
   );

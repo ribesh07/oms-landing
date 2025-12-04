@@ -10,8 +10,12 @@ export default function HeaderBar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 mb-2">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
+          <a
+            href="/"
+          >
           <div className="flex items-center mr-2">
            <Image
+
                 src="/globaltech-logo.png"
                 alt="Global Tech"
                 width={120}
@@ -21,6 +25,8 @@ export default function HeaderBar() {
                 className="transition-all duration-300 hover:scale-105"
               />
           </div>
+
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-4">
@@ -49,12 +55,15 @@ export default function HeaderBar() {
             <button className="px-6 py-2 bg-[#01403e] text-white font-medium rounded-lg hover:scale-105 transition-all">
               Start Free Trial
             </button>
-            <a
-              href="#"
-              className="px-6 py-2 border-2 border-[#01403e] text-green-600 font-medium rounded-lg hover:bg-[#01403e] hover:text-white transition-all"
-            >
-              Login
-            </a>
+           <a
+            href="http://omslite.globaltech.com.np/Account/Login"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-2 border-2 border-[#01403e] text-green-600 font-medium rounded-lg hover:bg-[#01403e] hover:text-white transition-all"
+          >
+            Login
+          </a>
+
           </div>
 
           {/* Mobile Menu Button */}
