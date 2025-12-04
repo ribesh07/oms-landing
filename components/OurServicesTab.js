@@ -8,9 +8,9 @@ export default function TabBar() {
   const tabs = [
     { id: "accounting", label: "Accounting" },
     { id: "softwaredevelopment", label: "Software Development" },
-    { id: "cloudcomputing", label: "Cloud Computing" },
-    { id: "websolutions", label: "Web & App Solutions" },
     { id: "graphicdesign", label: "Graphic Design & Animation" },
+    { id: "websolutions", label: "Web & App Solutions" },
+    { id: "cloudcomputing", label: "Cloud Computing" },
   ];
 
   const tabContent = {
@@ -35,33 +35,6 @@ export default function TabBar() {
       features: [],
       image: "/software.jpg",
     },
-    cloudcomputing: {
-      title: "Cloud Computing",
-      description: "Web hosting and domain registration",
-      features: [
-        "Domain Registration",
-        "Reliable Web Hosting",
-        "SSL Certificates",
-        "Email Hosting",
-        "Linux VPS Hosting",
-        "Windows VPS Hosting",
-        "Dedicated Server Hosting",
-      ],
-      image: "/cloud.avif",
-    },
-    websolutions: {
-      title: "Web & App Solutions",
-      description:
-        "Web & App Solutions that streamline your sales process and enhance customer experience.",
-      features: [
-        "Portal Development",
-        "E-commerce Integration",
-        "Responsive Design",
-        "Mobile App android & ios Development",
-        "CMS Solutions",
-      ],
-      image: "/web-app.jpeg",
-    },
     graphicdesign: {
       title: "Graphic Design & Animation",
       description:
@@ -76,6 +49,35 @@ export default function TabBar() {
         "UI/UX Design",
       ],
       image: "/graphic.jpg",
+    },
+    
+    websolutions: {
+      title: "Web & App Solutions",
+      description:
+        "Web & App Solutions that streamline your sales process and enhance customer experience.",
+      features: [
+        "Portal Development",
+        "E-commerce Integration",
+        "Responsive Design",
+        "Mobile App android & ios Development",
+        "CMS Solutions",
+      ],
+      image: "/web-app.jpeg",
+    },
+    
+    cloudcomputing: {
+      title: "Cloud Computing",
+      description: "Web hosting and domain registration",
+      features: [
+        "Domain Registration",
+        "Reliable Web Hosting",
+        "SSL Certificates",
+        "Email Hosting",
+        "Linux VPS Hosting",
+        "Windows VPS Hosting",
+        "Dedicated Server Hosting",
+      ],
+      image: "/cloud.avif",
     },
   };
 
