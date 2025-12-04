@@ -48,14 +48,14 @@ export default function OurclientSlider() {
       >
         {brands.map((brand) => (
           <SwiperSlide key={brand.id}>
-            <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition bg-linear-to-b from-green-50 to-white border">
+            <div className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition bg-linear-to-b from-green-50 to-white border border-green-600">
               <div className="w-full h-40 flex items-center justify-center p-4">
                 <Image
                   src={brand.image}
                   alt={brand.title}
                   width={300}
                   height={200}
-                  className="object-contain"
+                  className=""
                 />
               </div>
             </div>
