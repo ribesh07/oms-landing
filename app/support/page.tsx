@@ -1,5 +1,6 @@
 "use client";
-import Image from "next/image";
+
+import { MapPin, Mail, Phone, Headset, Building } from "lucide-react";
 
 export default function ContactSection() {
   return (
@@ -16,7 +17,7 @@ export default function ContactSection() {
         <div className="bg-green-50 border border-emerald-200 rounded-2xl p-6 text-center shadow-md">
           <div className="flex justify-center mb-4">
             <div className="w-12 h-12 rounded-full border border-emerald-400 flex items-center justify-center">
-              <Image src="/icons/location.svg" width={24} height={24} alt="address" />
+              <MapPin className="text-emerald-600 w-6 h-6" />
             </div>
           </div>
           <h3 className="text-lg font-semibold text-emerald-700 mb-2">Our Address</h3>
@@ -27,7 +28,7 @@ export default function ContactSection() {
         <div className="bg-green-50 border border-emerald-200 rounded-2xl p-6 text-center shadow-md">
           <div className="flex justify-center mb-4">
             <div className="w-12 h-12 rounded-full border border-emerald-400 flex items-center justify-center">
-              <Image src="/icons/mail.svg" width={24} height={24} alt="email" />
+              <Mail className="text-emerald-600 w-6 h-6" />
             </div>
           </div>
           <h3 className="text-lg font-semibold text-emerald-700 mb-2">Email Us</h3>
@@ -38,7 +39,7 @@ export default function ContactSection() {
         <div className="bg-green-50 border border-emerald-200 rounded-2xl p-6 text-center shadow-md">
           <div className="flex justify-center mb-4">
             <div className="w-12 h-12 rounded-full border border-emerald-400 flex items-center justify-center">
-              <Image src="/icons/phone.svg" width={24} height={24} alt="call" />
+              <Phone className="text-emerald-600 w-6 h-6" />
             </div>
           </div>
           <h3 className="text-lg font-semibold text-emerald-700 mb-2">Call Us</h3>
@@ -46,9 +47,15 @@ export default function ContactSection() {
           <p className="text-gray-600">5329952</p>
         </div>
 
-        {/* Support */}
+        {/* Support & Reception */}
         <div className="bg-green-50 border border-emerald-200 rounded-2xl p-6 text-center shadow-md">
-          <h3 className="text-lg font-semibold text-emerald-700 mb-3">Support</h3>
+          <div className="flex justify-center mb-4">
+            <div className="w-12 h-12 rounded-full border border-emerald-400 flex items-center justify-center">
+              <Headset className="text-emerald-600 w-6 h-6" />
+            </div>
+          </div>
+
+          <h3 className="text-lg font-semibold text-emerald-700 mb-2">Support</h3>
           <p className="text-gray-600">9802069647</p>
           <p className="text-gray-600">9802070274</p>
           <p className="text-gray-600">9802069649</p>
