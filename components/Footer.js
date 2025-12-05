@@ -173,7 +173,9 @@ export default function Footer() {
 
             {/* Social Media Links */}
             <div className="flex items-center gap-4">
-              <a href="https://www.facebook.com/globaltechnepal" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
+              <a href="https://www.facebook.com/globaltechnepal"
+                target='_blank'
+               className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
               {/* <a href="#twitter" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
@@ -182,10 +184,14 @@ export default function Footer() {
               {/* <a href="#linkedin" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a> */}
-              <a href="https://www.instagram.com/globaltech.nepal/" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
+              <a href="https://www.instagram.com/globaltech.nepal/" 
+                target='_blank'
+              className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="https://www.youtube.com/@omsaccounting" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
+              <a href="https://www.youtube.com/@omsaccounting" 
+                target='_blank'
+              className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
                 <Youtube className="w-5 h-5" />
               </a>
             </div>
