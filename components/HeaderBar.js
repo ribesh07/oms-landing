@@ -30,7 +30,7 @@ export default function HeaderBar() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-4">
-            <a href="http://omslite.globaltech.com.np/Account/Document" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
+            <a href="/" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
               DOCS
             </a>
             <a href="/features" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
