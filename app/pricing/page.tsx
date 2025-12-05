@@ -92,38 +92,6 @@ export default function PricingSection() {
               </button>
             </div>
 
-//             <div
-//             key={index}
-//             className="bg-white rounded-3xl shadow-lg shadow-green-600 p-5 flex flex-col items-center hover:shadow-2xl transition-shadow duration-300"
-//             >
-//             <h3 className="text-xl font-semibold text-gray-800 mb-4 text-center">
-//                 <span className="text-emerald-500">{plan.title.split(' ')[0]}</span>
-//                 {' ' + plan.title.split(' ').slice(1).join(' ')}
-//             </h3>
-
-//             <div className="mb-4 px-2 py-2">
-//                 <p className="text-3xl font-bold text-emerald-500">
-//                 RS.{plan.price}
-//                 </p>
-//             </div>
-
-//             <p className="text-lg font-semibold text-gray-700 mb-3">
-//                 <span className="text-emerald-500">{plan.users.split(' ')[0]}</span>
-//                 {' ' + plan.users.split(' ').slice(1).join(' ')}
-//             </p>
-
-//         <div className="grow w-full space-y-3 mb-4">
-//             {plan.features.map((feature, idx) => (
-//             <p key={idx} className="text-gray-700 font-medium text-center">
-//                 {feature}
-//             </p>
-//             ))}
-//         </div>
-
-//   <button className="w-full py-2.5 px-6 border-2 border-emerald-500 text-emerald-600 font-bold rounded-full hover:bg-emerald-500 hover:text-white transition-colors duration-300">
-//     Buy Now
-//   </button>
-// </div>
 
           ))}
         </div>
