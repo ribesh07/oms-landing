@@ -14,23 +14,23 @@ export default function Footer() {
       { name: 'Reporting', href: '#reporting' }
     ],
     company: [
-      { name: 'About Us', href: '#about' },
+      // { name: 'About Us', href: '#about' },
       { name: 'Careers', href: '#careers' },
       { name: 'Blog', href: '#blog' },
-      { name: 'Press', href: '#press' },
+      // { name: 'Press', href: '#press' },
       { name: 'Partners', href: '#partners' }
     ],
     resources: [
       { name: 'Help Center', href: '#help' },
       { name: 'Documentation', href: '#docs' },
       { name: 'API Reference', href: '#api' },
-      { name: 'Community', href: '#community' },
-      { name: 'Webinars', href: '#webinars' }
+      // { name: 'Community', href: '#community' },
+      // { name: 'Webinars', href: '#webinars' }
     ],
     legal: [
-      { name: 'Privacy Policy', href: '#privacy' },
+      { name: 'Privacy Policy', href: '/privacy' },
       { name: 'Terms of Service', href: '#terms' },
-      { name: 'Cookie Policy', href: '#cookies' },
+      // { name: 'Cookie Policy', href: '/privacy' },
       { name: 'GDPR Compliance', href: '#gdpr' }
     ]
   };
@@ -173,19 +173,19 @@ export default function Footer() {
 
             {/* Social Media Links */}
             <div className="flex items-center gap-4">
-              <a href="#facebook" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
+              <a href="https://www.facebook.com/globaltechnepal" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#twitter" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
+              {/* <a href="#twitter" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
                 <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#linkedin" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
+              </a> */}
+              {/* <a href="#linkedin" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
                 <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#instagram" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
+              </a> */}
+              <a href="https://www.instagram.com/globaltech.nepal/" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#youtube" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
+              <a href="https://www.youtube.com/@omsaccounting" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
                 <Youtube className="w-5 h-5" />
               </a>
             </div>
