@@ -68,7 +68,7 @@ export default function OurclientSlider() {
     {brands.map((brand) => (
       <div
         key={brand.id}
-        className="bg-white rounded-xl border shadow-sm p-4 flex items-center justify-center"
+        className="bg-white rounded-xl border border-green-300 shadow-sm p-4 flex items-center justify-center"
       >
         <Image
           src={brand.image}
