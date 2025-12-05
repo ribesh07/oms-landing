@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="121.08" height="121.08" viewBox="0 0 121.08 121.08">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #008481;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+
+      .cls-2, .cls-7 {
+        stroke-linecap: round;
+      }
+
+      .cls-3, .cls-6, .cls-9 {
+        fill: #00c1bf;
+      }
+
+      .cls-3 {
+        opacity: 0.2;
+      }
+
+      .cls-3, .cls-6 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-5 {
+        fill: #008481;
+      }
+
+      .cls-6 {
+        opacity: 0.15;
+      }
+
+      .cls-7 {
+        fill: none;
+        stroke: #00c1bf;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-8 {
+        fill: #57b520;
+      }
+    </style>
+  </defs>
+  <title>il_utl</title>
+  <g class="cls-1">
+    <g id="art">
+      <g>
+        <g>
+          <path class="cls-2" d="M97.69,31.94a21.52,21.52,0,0,0-41.84-7A14.43,14.43,0,0,0,58.52,53.6H93a11.35,11.35,0,0,0,4.73-21.66Z"/>
+          <path class="cls-3" d="M93.5,34.39a17.26,17.26,0,0,0-8.38-17.32,18.32,18.32,0,0,1,1.33,6.84A18.51,18.51,0,0,1,61.2,41.16a17.49,17.49,0,0,0,15,8.44H92.73a7.62,7.62,0,0,0,.77-15.21Z"/>
+        </g>
+        <g>
+          <g>
+            <rect class="cls-4" x="16.81" y="35.57" width="47.93" height="76.93" rx="1.97"/>
+            <path class="cls-5" d="M62.78,37.54v73h-44v-73h44m0-3.94h-44a3.93,3.93,0,0,0-3.93,3.94v73a3.93,3.93,0,0,0,3.93,3.93h44a3.93,3.93,0,0,0,3.93-3.93v-73a3.93,3.93,0,0,0-3.93-3.94Z"/>
+          </g>
+          <polygon class="cls-6" points="60.35 44.14 60.35 91.26 21.95 91.26 60.35 44.14"/>
+          <line class="cls-7" x1="21.95" y1="94.47" x2="59.6" y2="94.46"/>
+          <line class="cls-7" x1="36.99" y1="40.77" x2="44.56" y2="40.75"/>
+          <circle class="cls-8" cx="40.78" cy="103.03" r="4"/>
+        </g>
+        <g>
+          <rect class="cls-9" x="27.7" y="53.69" width="10.89" height="10.89" rx="2"/>
+          <rect class="cls-9" x="42.96" y="53.69" width="10.89" height="10.89" rx="2"/>
+          <rect class="cls-8" x="27.7" y="68.95" width="10.89" height="10.89" rx="2"/>
+          <rect class="cls-9" x="42.96" y="68.95" width="10.89" height="10.89" rx="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

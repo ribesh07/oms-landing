@@ -32,7 +32,7 @@ export default function OurclientSlider() {
         We Have Been Featured On
       </h2>
 
-      <Swiper
+      {/* <Swiper
       className="bg-linear-to-b from-green-50 to-white"
         modules={[Autoplay]}
         autoplay={{ delay: 2500, disableOnInteraction: false }}
@@ -62,7 +62,26 @@ export default function OurclientSlider() {
             </div>
           </SwiperSlide>
         ))}
-      </Swiper>
+      </Swiper> */}
+      <div className="h-80 overflow-y-scroll">
+  <div className="grid grid-cols-3 gap-4">
+    {brands.map((brand) => (
+      <div
+        key={brand.id}
+        className="bg-white rounded-xl border shadow-sm p-4 flex items-center justify-center"
+      >
+        <Image
+          src={brand.image}
+          alt={brand.title}
+          width={150}
+          height={100}
+          className="object-contain"
+        />
+      </div>
+    ))}
+  </div>
+</div>
+
     </div>
     </div>
   );

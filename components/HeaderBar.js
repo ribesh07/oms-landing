@@ -30,13 +30,13 @@ export default function HeaderBar() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-4">
-            <a href="#" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
+            <a href="http://omslite.globaltech.com.np/Account/Document" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
               DOCS
             </a>
-            <a href="#" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
+            <a href="/features" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
               FEATURES
             </a>
-            <a href="#" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
+            <a href="/pricing" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
               PRICING
             </a>
             <a href="#" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
@@ -45,9 +45,9 @@ export default function HeaderBar() {
             <a href="#" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
               BLOGS
             </a>
-            <a href="#" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
+            {/* <a href="#" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
               HELP
-            </a>
+            </a> */}
           </nav>
 
           {/* Desktop CTA Buttons */}
@@ -124,19 +124,21 @@ export default function HeaderBar() {
 
         {/* Sidebar Links */}
         <nav className="flex flex-col p-4 space-y-3 text-gray-700">
-          <a href="#" className="hover:bg-gray-100 p-2 rounded">DOCS</a>
-          <a href="#" className="hover:bg-gray-100 p-2 rounded">FEATURES</a>
-          <a href="#" className="hover:bg-gray-100 p-2 rounded">PRICING</a>
+          <a href="http://omslite.globaltech.com.np/Account/Document" className="hover:bg-gray-100 p-2 rounded">DOCS</a>
+          <a href="/features" className="hover:bg-gray-100 p-2 rounded">FEATURES</a>
+          <a href="/pricing" className="hover:bg-gray-100 p-2 rounded">PRICING</a>
           <a href="#" className="hover:bg-gray-100 p-2 rounded">SUPPORT</a>
           <a href="#" className="hover:bg-gray-100 p-2 rounded">BLOGS</a>
-          <a href="#" className="hover:bg-gray-100 p-2 rounded">HELP</a>
+          {/* <a href="#" className="hover:bg-gray-100 p-2 rounded">HELP</a> */}
 
           <button className="mt-4 w-full bg-[#01403e] text-white py-2 rounded-lg">
             Start Free Trial
           </button>
-          <button className="w-full border-2 border-[#01403e] text-green-700 py-2 rounded-lg hover:bg-[#01403e] hover:text-white transition">
+          <a 
+          href="http://omslite.globaltech.com.np/Account/Login"
+          className="w-full border-2 border-[#01403e] text-green-700 py-2 rounded-lg hover:bg-[#01403e] hover:text-white transition">
             Login
-          </button>
+          </a>
         </nav>
       </div>
     </header>
