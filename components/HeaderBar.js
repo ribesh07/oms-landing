@@ -39,7 +39,7 @@ export default function HeaderBar() {
             <a href="/pricing" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
               PRICING
             </a>
-            <a href="#" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
+            <a href="/support" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
               SUPPORT
             </a>
             <a href="#" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
@@ -127,7 +127,7 @@ export default function HeaderBar() {
           <a href="http://omslite.globaltech.com.np/Account/Document" className="hover:bg-gray-100 p-2 rounded">DOCS</a>
           <a href="/features" className="hover:bg-gray-100 p-2 rounded">FEATURES</a>
           <a href="/pricing" className="hover:bg-gray-100 p-2 rounded">PRICING</a>
-          <a href="#" className="hover:bg-gray-100 p-2 rounded">SUPPORT</a>
+          <a href="/support" className="hover:bg-gray-100 p-2 rounded">SUPPORT</a>
           <a href="#" className="hover:bg-gray-100 p-2 rounded">BLOGS</a>
           {/* <a href="#" className="hover:bg-gray-100 p-2 rounded">HELP</a> */}
 
