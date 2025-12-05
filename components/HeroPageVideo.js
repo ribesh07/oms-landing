@@ -15,17 +15,19 @@ export default function YouTubeVideo() {
         <div className="flex flex-wrap justify-center gap-6 mb-12">
           <div className="flex items-center gap-2  text-green-600">
             <CheckCircle className="w-6 h-6" />
-            <span className="font-medium text-xl">
+            <span className="font-medium text-[14px] sm:text-xl">
               Designed by Professional Accountants
             </span>
           </div>
           <div className="flex items-center gap-2 text-green-600">
             <CheckCircle className="w-6 h-6" />
-            <span className="font-medium text-xl">Built by Tech Experts</span>
+            <span className="font-medium text-[14px] sm:text-xl">
+              Built by Tech Experts</span>
           </div>
           <div className="flex items-center gap-2 text-green-600">
             <CheckCircle className="w-6 h-6" />
-            <span className="font-medium text-xl">Certified by the IRD</span>
+            <span className="font-medium text-[14px] sm:text-xl">
+              Certified by the IRD</span>
           </div>
         </div>
 

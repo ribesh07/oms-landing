@@ -84,10 +84,10 @@ export default function FreeTrials() {
     <div className="grid lg:grid-cols-2 gap-6 lg:gap-12 items-center">
 
       {/* Left Section */}
-      <div className="my-2">
+      <div className="">
         {/* Heading */}
-        <div className={`${isVisible ? "mb-12 animate-slide-up opacity-0" : "opacity-0"}`}>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
+        <div className={`${isVisible ? "mb-2 sm:mb-14 -mt-6 sm:mt-0 animate-slide-up opacity-0" : "opacity-0"}`}>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-snug sm:leading-tight">
             Transform Your{" "}
             <span className="text-lime-400 inline-block hover:scale-105 transition-transform duration-300">
               Accounting
@@ -97,9 +97,9 @@ export default function FreeTrials() {
           </h1>
         </div>
 
-        {/* Subheading */}
+        {/* Subheading */} 
         <p
-          className={`text-base sm:text-lg mb-12 lg:text-xl text-gray-100 leading-relaxed font-bold max-w-xl ${
+          className={`text-base sm:text-lg mb-1 sm:mb-6 lg:text-xl text-gray-100 leading-relaxed font-bold max-w-xl ${
             isVisible ? "animate-slide-up opacity-0 delay-200" : "opacity-0"
           }`}
         >
@@ -113,7 +113,7 @@ export default function FreeTrials() {
       <div>
         {/* CTA Card */}
         <div
-          className={`bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl p-5 sm:p-6 ${
+          className={`bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl p-4 sm:p-6 ${
             isVisible ? "animate-scale-in opacity-0 delay-300" : "opacity-0"
           }`}
         >
@@ -167,8 +167,8 @@ export default function FreeTrials() {
         </div>
 
         {/* App download buttons */}
-        <div className={`pt-4 -my-2 mx-12  ${isVisible ? "animate-slide-up opacity-0 delay-500" : "opacity-0"}`}>
-          <p className="text-white text-xs font-medium mb-3 mt-14">
+        <div className={`pt-2 -my-1 mx-4 sm:mx-12 sm:pt-4  ${isVisible ? "animate-slide-up opacity-0 delay-500" : "opacity-0"}`}>
+          <p className="text-white text-xs font-medium mb-3 mt-3 sm:mt-14">
             Available on mobile
           </p>
 
