@@ -42,8 +42,8 @@ export default function HeaderBar() {
             <a href="/support" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
               SUPPORT
             </a>
-            <a href="#" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
-              BLOGS
+            <a href="/careers" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
+              CAREERS
             </a>
             {/* <a href="#" className="text-gray-700 rounded-lg hover:text-white hover:bg-[#01403e] p-4 font-medium">
               HELP
@@ -128,7 +128,7 @@ export default function HeaderBar() {
           <a href="/features" className="hover:bg-gray-100 p-2 rounded">FEATURES</a>
           <a href="/pricing" className="hover:bg-gray-100 p-2 rounded">PRICING</a>
           <a href="/support" className="hover:bg-gray-100 p-2 rounded">SUPPORT</a>
-          <a href="#" className="hover:bg-gray-100 p-2 rounded">BLOGS</a>
+          <a href="/careers" className="hover:bg-gray-100 p-2 rounded">CAREERS</a>
           {/* <a href="#" className="hover:bg-gray-100 p-2 rounded">HELP</a> */}
 
           <button className="mt-4 w-full bg-[#01403e] text-white py-2 rounded-lg">
