@@ -16,14 +16,14 @@ export default function Footer() {
     company: [
       // { name: 'About Us', href: '#about' },
       { name: 'Careers', href: '/careers' },
-      { name: 'Blog', href: '#blog' },
       // { name: 'Press', href: '#press' },
       { name: 'Partners', href: '#partners' }
     ],
     resources: [
       { name: 'Help Center', href: '#help' },
-      { name: 'Documentation', href: '#docs' },
-      { name: 'API Reference', href: '#api' },
+          { name: 'Blog', href: '#blog' },
+      // { name: 'Documentation', href: '#docs' },
+      // { name: 'API Reference', href: '#api' },
       // { name: 'Community', href: '#community' },
       // { name: 'Webinars', href: '#webinars' }
     ],

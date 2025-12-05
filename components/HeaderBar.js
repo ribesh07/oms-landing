@@ -124,7 +124,7 @@ export default function HeaderBar() {
 
         {/* Sidebar Links */}
         <nav className="flex flex-col p-4 space-y-3 text-gray-700">
-          <a href="http://omslite.globaltech.com.np/Account/Document" className="hover:bg-gray-100 p-2 rounded">DOCS</a>
+          <a href="/" className="hover:bg-gray-100 p-2 rounded">DOCS</a>
           <a href="/features" className="hover:bg-gray-100 p-2 rounded">FEATURES</a>
           <a href="/pricing" className="hover:bg-gray-100 p-2 rounded">PRICING</a>
           <a href="/support" className="hover:bg-gray-100 p-2 rounded">SUPPORT</a>
